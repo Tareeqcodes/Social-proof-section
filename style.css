@@ -1,0 +1,307 @@
+@import url(https://fonts.google.com/specimen/Spartan);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  background-image:
+    url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+  background-position: left-top, right-bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+.wrapper{
+  margin: 50px auto;
+}
+
+.container{
+  margin: 0 auto;
+  height: fit-content;
+  max-width: 1440px;
+  padding: 0 30px;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+#num{
+  width: 100%;
+  justify-content: center;
+}
+#num p{
+  width: 70%;
+  margin: 0 50px 0 0;
+  line-height: 1.5;
+}
+#stars{
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.Review{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 100%;
+}
+
+.Review .star-icon img{
+  width: 15%;
+  padding: 10px;
+}
+
+.Report{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 100%;
+}
+.Report .star-icon img{
+  width: 15%;
+  padding: 10px;
+}
+
+.BestTech{
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.BestTech .star-icon img{
+  width: 15%;
+  padding: 10px;
+}
+
+.star-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* main */
+.main{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: last center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  width: 40%;
+
+}
+h2{
+  font-size: 16px;
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+  width: 100%;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+h4{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(333, 80%, 67%);
+}
+
+p{
+  text-align: justify;
+  margin: 0 auto;
+}
+
+img{
+  border-radius: 50%;
+  width: 20%;
+}
+
+#card-1{
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.Colton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 60px 20px 0;
+}
+#Smith{
+  text-align: justify;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+/* card-2 */
+#card-2{
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin-top:40px; 
+}
+
+.Irene{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 60px 20px 0;
+}
+#Roberts{
+  text-align: justify;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+/* card-3 */
+#card-3{
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin-top: 70px; 
+}
+
+.Anne{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 60px 20px 0;
+}
+#Wallace{
+  text-align: justify;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+   /* media qeuries */
+
+  @media screen and (max-width: 768px) {
+    .container{
+      width: 100%;
+    }
+    
+    .head {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #num{
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    #num p{
+      width: 90%;
+    }
+    h1 {
+      width: 70%;
+      text-align: center;
+      margin: 10px;
+      align-self: center;
+    }
+    
+    h2{
+
+    }
+    #stars {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+       
+    .Review,
+    .Report, 
+    .BestTech{
+      margin: 10xp auto;
+      padding: 10px 0;
+      width: 90%;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .star-icon{
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .Review .star-icon img{
+      width: 10%;
+      padding: 5px;
+    }
+    .Report .star-icon img{
+      width: 10%;
+      padding: 5px;
+    }
+    .BestTech .star-icon img{
+      width: 10%;
+      padding: 5px;
+    }
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #card-1,
+    #card-2,
+    #card-3 {
+      margin-top: 20px;
+    }
+  }
